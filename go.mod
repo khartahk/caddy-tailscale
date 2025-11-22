@@ -8,7 +8,7 @@ require (
 	github.com/google/go-cmp v0.7.0
 	github.com/tailscale/tscert v0.0.0-20240608151842-d3f834017e53
 	go.uber.org/zap v1.27.0
-	tailscale.com v1.90.6
+	tailscale.com v1.90.8
 )
 
 require (
@@ -184,3 +184,5 @@ require (
 	gvisor.dev/gvisor v0.0.0-20250205023644-9414b50a5633 // indirect
 	howett.net/plist v1.0.0 // indirect
 )
+
+replace github.com/tailscale/caddy-tailscale v0.0.0-20251117033914-662ef34c64b1 => github.com/khartahk/caddy-tailscale v0.0.1-0.20251122202940-9d2eae2177fe
